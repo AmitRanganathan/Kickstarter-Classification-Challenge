@@ -1,0 +1,23 @@
+#	ID		internal kickstarter id
+Str	name		name of project - A project is a finite work with a clear goal that you’d like to bring to life. Think albums, books, or films.
+Str	category	category
+Str	main_category	category of campaign
+Str	currency	currency used to support
+Date	deadline	deadline for crowdfunding
+#	goal		fundraising goal - The funding goal is the amount of money that a creator needs to complete their project.
+Date	launched	date launched
+#	pledged		amount pledged by "crowd"
+Str	state		Current condition the project is in
+#	backers		number of backers
+Str	country		country pledged from
+#	usd		pledged amount of money pledged
+#	Goal		amount in USD
+
+
+HMM
+
+N = 2
+A - N by N
+B - M by N
+Pi - 1 by N
+
